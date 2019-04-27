@@ -29,7 +29,7 @@ As a basic requirement for test. Using Laravel 5.8
 
 ## How to 🕵️‍♂️
 1. npm install
-1.2 composer install
-2. copy .env.example to .env
-3. php artisan key:generate
+2. composer install
+3. copy .env.example to .env
+4. php artisan key:generate
 Then serve it 😎
