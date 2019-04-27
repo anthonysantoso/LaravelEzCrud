@@ -1,0 +1,198 @@
+/*
+  Theme Name: NewBiz
+  Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+
+#intro {
+    width: 100%;
+    position: relative;
+    background: url("../img/intro-bg.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 2% 0 120px 0;
+}
+
+#intro .intro-img {
+    width: 50%;
+    float: right;
+}
+
+#intro .intro-info {
+    width: 50%;
+    float: left;
+}
+
+#intro .intro-info h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#intro .intro-info h2 span {
+    color: #74b5fc;
+    text-decoration: underline;
+}
+
+#intro .intro-info .btn-get-started,
+#intro .intro-info .btn-services {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+}
+
+#intro .intro-info .btn-get-started {
+    background: #007bff;
+    border: 2px solid #007bff;
+    color: #fff;
+}
+
+#intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+}
+
+#intro .intro-info .btn-services {
+    border: 2px solid #fff;
+}
+
+#intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+
+/* Services Section
+--------------------------------*/
+
+.box h2 {
+    width: 80%;
+    float: none;
+    text-align: center;
+    color: #6bb2ff;
+    font-weight: bold;
+    margin: 5px auto 20px auto;
+}
+
+#services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10% 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#services #thankyou {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 200px 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#services .box:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+#services .icon {
+    position: absolute;
+    top: calc(50% - 32px);
+}
+
+#services .icon i {
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+}
+
+#services .title {
+    margin-left: 20%;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#services .title a {
+    color: #111;
+}
+
+
+#services .description {
+    font-size: 14px;
+    margin-left: 20%;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+/* Image Section
+--------------------------------*/
+.imagelayout {
+    max-width: 300px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+
+/* footer Section
+--------------------------------*/
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    margin: 2px 2px 2px 2px;
+}
