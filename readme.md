@@ -27,4 +27,9 @@ As a basic requirement for test. Using Laravel 5.8
  >Create successfull!
  >![Create successfull](example%20screen%20shot/EzCrud%20OK.PNG)
 
-
+## How to 🕵️‍♂️
+1. npm install
+1.2 composer install
+2. copy .env.example to .env
+3. php artisan key:generate
+Then serve it 😎
