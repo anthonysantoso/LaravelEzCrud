@@ -13,5 +13,18 @@ As a basic requirement for test. Using Laravel 5.8
 ### Todos in the Future 💁‍♀️
 
  - Write MORE Delete and Edit
+ 
+### Screenshot
 
-![](example%20screen%20shot/EzCrud.PNG)
+ > Welcome page!
+ >[Welcome page](example%20screen%20shot/EzCrud.PNG)
+
+
+ >View Data on txt!
+ >[view Data on txt](example%20screen%20shot/EzCrud%20View.PNG)
+
+
+ >Create successfull!
+ >[Create successfull](example%20screen%20shot/EzCrud%20OK.PNG)
+
+
