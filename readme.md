@@ -13,3 +13,5 @@ As a basic requirement for test. Using Laravel 5.8
 ### Todos in the Future 💁‍♀️
 
  - Write MORE Delete and Edit
+
+![](example%20screen%20shot/EzCrud.PNG)
